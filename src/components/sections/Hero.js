@@ -52,7 +52,7 @@ const Hero = ({
             <h1 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200">
               Hey there. I'm <span className="text-color-primary">Fatima Ezzahra</span>
             </h1>
-            <h2 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200">I am software developer</h2>
+            <h2 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200">I am <span className="text-color-primary">full-stack developer</span></h2>
             <div className="container-xs">
               <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
                I can help you build a product , feature or website Look through some
