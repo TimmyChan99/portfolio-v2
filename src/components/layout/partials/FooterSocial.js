@@ -18,7 +18,7 @@ const FooterSocial = ({
     >
       <ul className="list-reset">
         <li>
-          <a target="_blank" href="https://www.linkedin.com/in/fatima-ezzahra-elemenoun/">
+          <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/fatima-ezzahra-elemenoun/">
             <svg
               width="40"
               height="24"
@@ -30,7 +30,7 @@ const FooterSocial = ({
           </a>
         </li>
         <li>
-          <a target="_blank" href="https://github.com/TimmyChan99">
+          <a target="_blank" rel="noopener noreferrer" href="https://github.com/TimmyChan99">
             <svg
               width="24"
               height="24"
@@ -42,7 +42,7 @@ const FooterSocial = ({
           </a>
         </li>
         <li>
-          <a target="_blank" href="https://angel.co/u/fatima-ezzahra-elmenoun">
+          <a target="_blank" rel="noopener noreferrer" href="https://angel.co/u/fatima-ezzahra-elmenoun">
             <svg
               width="24"
               height="24"
@@ -54,7 +54,7 @@ const FooterSocial = ({
           </a>
         </li>
         <li>
-          <a target="_blank" href="https://twitter.com/elemenoun">
+          <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/elemenoun">
             <svg
               width="24"
               height="24"

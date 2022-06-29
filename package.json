@@ -1,9 +1,11 @@
 {
-  "name": "open-react-template",
+  "name": "portfolio",
   "version": "0.1.0",
+  "homepage": "https://timmychan99.github.io/portfolio-v2/",
   "private": true,
   "dependencies": {
     "classnames": "^2.2.6",
+    "gh-pages": "^4.0.0",
     "lodash": "^4.17.15",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
@@ -14,13 +16,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/cruip/open-react-template.git"
+    "url": "https://github.com/TimmyChan99/portfolio-v2"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"

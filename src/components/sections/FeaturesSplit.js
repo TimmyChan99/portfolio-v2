@@ -80,10 +80,10 @@ const FeaturesSplit = ({
                <br />
                <div className="reveal-from-bottom" data-reveal-delay="600">
                   <ButtonGroup>
-                    <Button tag="a" target="_blank" color="primary" wideMobile href="https://car-renta.herokuapp.com/">
+                    <Button tag="a" target="_blank" rel="noopener noreferrer" color="primary" wideMobile href="https://car-renta.herokuapp.com/">
                       Live version
                     </Button>
-                    <Button tag="a" target="_blank" color="dark" wideMobile href="https://github.com/TimmyChan99/Car-rental-app-back-end">
+                    <Button tag="a" target="_blank" rel="noopener noreferrer" color="dark" wideMobile href="https://github.com/TimmyChan99/Car-rental-app-back-end">
                       Source Github
                     </Button>
                   </ButtonGroup>
@@ -117,10 +117,10 @@ const FeaturesSplit = ({
                 <br />
                   <div className="reveal-from-bottom" data-reveal-delay="600">
                     <ButtonGroup>
-                      <Button tag="a" target="_blank" color="primary" wideMobile href="https://mybudget-railsapp.herokuapp.com/">
+                      <Button tag="a" target="_blank" rel="noopener noreferrer" color="primary" wideMobile href="https://mybudget-railsapp.herokuapp.com/">
                         Live version
                       </Button>
-                      <Button tag="a" target="_blank" color="dark" wideMobile href="https://github.com/TimmyChan99/Budget-app/">
+                      <Button tag="a" target="_blank" rel="noopener noreferrer" color="dark" wideMobile href="https://github.com/TimmyChan99/Budget-app/">
                         Source Github
                       </Button>
                     </ButtonGroup>
@@ -156,10 +156,10 @@ const FeaturesSplit = ({
                   <br />
                   <div className="reveal-from-bottom" data-reveal-delay="600">
                     <ButtonGroup>
-                      <Button tag="a" target="_blank" color="primary" wideMobile href="https://timmychan99.github.io/covid19-tracker/">
+                      <Button tag="a" target="_blank" rel="noopener noreferrer" color="primary" wideMobile href="https://timmychan99.github.io/covid19-tracker/">
                         Live version
                       </Button>
-                      <Button tag="a" target="_blank" color="dark" wideMobile href="https://github.com/TimmyChan99/covid19-tracker">
+                      <Button tag="a" target="_blank" rel="noopener noreferrer" color="dark" wideMobile href="https://github.com/TimmyChan99/covid19-tracker">
                         Source Github
                       </Button>
                     </ButtonGroup>
@@ -194,10 +194,10 @@ const FeaturesSplit = ({
                   <br />
                   <div className="reveal-from-bottom" data-reveal-delay="600">
                     <ButtonGroup>
-                      <Button tag="a" target="_blank" color="primary" wideMobile href="https://timmychan99.github.io/space-travelers/">
+                      <Button tag="a" target="_blank" rel="noopener noreferrer" color="primary" wideMobile href="https://timmychan99.github.io/space-travelers/">
                         Live version
                       </Button>
-                      <Button tag="a" target="_blank" color="dark" wideMobile href="https://github.com/TimmyChan99/space-travelers">
+                      <Button tag="a" target="_blank" rel="noopener noreferrer" color="dark" wideMobile href="https://github.com/TimmyChan99/space-travelers">
                         Source Github
                       </Button>
                     </ButtonGroup>
@@ -231,10 +231,10 @@ const FeaturesSplit = ({
                   <br />
                   <div className="reveal-from-bottom" data-reveal-delay="600">
                     <ButtonGroup>
-                      <Button tag="a" target="_blank" color="primary" wideMobile href="https://timmychan99.github.io/To_Do_list/">
+                      <Button tag="a" target="_blank" rel="noopener noreferrer" color="primary" wideMobile href="https://timmychan99.github.io/To_Do_list/">
                         Live version
                       </Button>
-                      <Button tag="a" target="_blank" color="dark" wideMobile href="https://github.com/TimmyChan99/To_Do_list">
+                      <Button tag="a" target="_blank" rel="noopener noreferrer" color="dark" wideMobile href="https://github.com/TimmyChan99/To_Do_list">
                         Source Github
                       </Button>
                     </ButtonGroup>
