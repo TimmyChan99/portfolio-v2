@@ -23,8 +23,9 @@
 			svg,
 			video {
 				width: auto;
-				height: auto;
+				height: 500px;
 				max-width: 100%;
+				object-fit: contain;
 				overflow: visible;
 			}
 

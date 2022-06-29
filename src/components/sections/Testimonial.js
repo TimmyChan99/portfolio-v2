@@ -2,6 +2,7 @@ import React from 'react';
 import classNames from 'classnames';
 import { SectionTilesProps } from '../../utils/SectionProps';
 import SectionHeader from './partials/SectionHeader';
+import Image from '../elements/Image';
 
 const propTypes = {
   ...SectionTilesProps.types
@@ -44,8 +45,8 @@ const Testimonial = ({
   );
 
   const sectionHeader = {
-    title: 'Customer testimonials',
-    paragraph: 'Vitae aliquet nec ullamcorper sit amet risus nullam eget felis semper quis lectus nulla at volutpat diam ut venenatis tellus—in ornare.'
+    title: 'About Me',
+    paragraph: "I'm a full-stack web developer and React and Rails enthusiast with a love for clean code and accessible design. Pair-programming and remote work aficionado. Fluent in multiple languages, frameworks, and technologies, and capable of ramping up quickly and efficiently."
   };
 
   return (
@@ -60,51 +61,158 @@ const Testimonial = ({
 
             <div className="tiles-item reveal-from-right" data-reveal-delay="200">
               <div className="tiles-item-inner">
-                <div className="testimonial-item-content">
-                  <p className="text-sm mb-0">
-                    — Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum cillum dolore eu fugiat.
-                      </p>
-                </div>
-                <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
-                  <span className="testimonial-item-name text-color-high">Roman Level</span>
-                  <span className="text-color-low"> / </span>
-                  <span className="testimonial-item-link">
-                    <a href="#0">AppName</a>
-                  </span>
+                <div className="card-container">
+                  <h4> { `< Languages /> ` }</h4>
+                 
+                 <ul className='skils-list'>
+                   <li className="skill-container">
+                       <Image
+                         src={require('./../../assets/images/js.svg')}
+                         alt="Features tile icon 01"
+                         width={64}
+                         height={64} />
+                       <small>JavaScript</small>
+                   </li>
+                   <li className="skill-container">
+                        <Image
+                         src={require('./../../assets/images/ruby.svg')}
+                         alt="Features tile icon 01"
+                         width={64}
+                         height={64} />
+                       <small>Ruby</small>
+                   </li>
+                   <li className="skill-container">
+                       <Image
+                         src={require('./../../assets/images/html.svg')}
+                         alt="Features tile icon 01"
+                         width={64}
+                         height={64} />
+                       <small>HTML</small>
+                   </li>
+                   <li className="skill-container">
+                       <Image
+                         src={require('./../../assets/images/css.svg')}
+                         alt="Features tile icon 01"
+                         width={64}
+                         height={64} />
+                       <small>CSS</small>
+                   </li>
+                   <li className="skill-container">
+                       <Image
+                         src={require('./../../assets/images/sql.svg')}
+                         alt="Features tile icon 01"
+                         width={64}
+                         height={64} />
+                       <small>SQL</small>
+                   </li>
+                 </ul>
+                
                 </div>
               </div>
             </div>
 
             <div className="tiles-item reveal-from-bottom">
               <div className="tiles-item-inner">
-                <div className="testimonial-item-content">
-                  <p className="text-sm mb-0">
-                    — Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum cillum dolore eu fugiat.
-                      </p>
+              <div className="card-container">
+                  <h4>{`< Frameworks & Libraries />`}</h4>
+                
+                 <ul className='skils-list'>
+                   <li className="skill-container">
+                       <Image
+                         src={require('./../../assets/images/react.svg')}
+                         alt="Features tile icon 01"
+                         width={64}
+                         height={64} />
+                       <small>React</small>
+                   </li>
+                   <li className="skill-container">
+                        <Image
+                         src={require('./../../assets/images/rails.svg')}
+                         alt="Features tile icon 01"
+                         width={64}
+                         height={64} />
+                       <small>Rails</small>
+                   </li>
+                   <li className="skill-container">
+                       <Image
+                         src={require('./../../assets/images/redux.svg')}
+                         alt="Features tile icon 01"
+                         width={64}
+                         height={64} />
+                       <small>Redux</small>
+                   </li>
+                   <li className="skill-container">
+                       <Image
+                         src={require('./../../assets/images/jest.svg')}
+                         alt="Features tile icon 01"
+                         width={64}
+                         height={64} />
+                       <small>Jest</small>
+                   </li>
+                   <li className="skill-container">
+                       <Image
+                         src={require('./../../assets/images/swagger.svg')}
+                         alt="Features tile icon 01"
+                         width={64}
+                         height={64} />
+                       <small>Swagger</small>
+                   </li>
+                   <li className="skill-container">
+                       <Image
+                         src={require('./../../assets/images/capybara.svg')}
+                         alt="Features tile icon 01"
+                         width={64}
+                         height={64} />
+                       <small>Capybara</small>
+                   </li>
+                 </ul>
+                
                 </div>
-                <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
-                  <span className="testimonial-item-name text-color-high">Diana Rynzhuk</span>
-                  <span className="text-color-low"> / </span>
-                  <span className="testimonial-item-link">
-                    <a href="#0">AppName</a>
-                  </span>
-                </div>
+                  
+                
               </div>
             </div>
 
             <div className="tiles-item reveal-from-left" data-reveal-delay="200">
               <div className="tiles-item-inner">
-                <div className="testimonial-item-content">
-                  <p className="text-sm mb-0">
-                    — Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum cillum dolore eu fugiat.
-                      </p>
-                </div>
-                <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
-                  <span className="testimonial-item-name text-color-high">Ben Stafford</span>
-                  <span className="text-color-low"> / </span>
-                  <span className="testimonial-item-link">
-                    <a href="#0">AppName</a>
-                  </span>
+              <div className="card-container">
+                  <h4>{`< Tools & Skills />`}</h4>
+                
+                 <ul className='skils-list'>
+                   <li className="skill-container">
+                       <Image
+                         src={require('./../../assets/images/github.svg')}
+                         alt="Features tile icon 01"
+                         width={64}
+                         height={64} />
+                       <small>GitHub</small>
+                   </li>
+                   <li className="skill-container">
+                        <Image
+                         src={require('./../../assets/images/git.svg')}
+                         alt="Features tile icon 01"
+                         width={64}
+                         height={64} />
+                       <small>Git</small>
+                   </li>
+                   <li className="skill-container">
+                       <Image
+                         src={require('./../../assets/images/postgresql.svg')}
+                         alt="Features tile icon 01"
+                         width={64}
+                         height={64} />
+                       <small>PostgreSQL</small>
+                   </li>
+                   <li className="skill-container">
+                       <Image
+                         src={require('./../../assets/images/sass.svg')}
+                         alt="Features tile icon 01"
+                         width={64}
+                         height={64} />
+                       <small>Sass</small>
+                   </li>
+                 </ul>
+                
                 </div>
               </div>
             </div>

@@ -1,8 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
-import Logo from './partials/Logo';
-import FooterNav from './partials/FooterNav';
 import FooterSocial from './partials/FooterSocial';
 
 const propTypes = {
@@ -39,14 +37,14 @@ const Footer = ({
             'site-footer-inner',
             topDivider && 'has-top-divider'
           )}>
+            <h3 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200">Get in touch!</h3>
           <div className="footer-top space-between text-xxs">
-            <Logo />
+            <h6>
+              <a href="mailto: felemenoun@gmail.com"><span className="at-symbole text-color-primary">@</span> felemenoun@gmail.com</a>
+            </h6>
             <FooterSocial />
           </div>
-          <div className="footer-bottom space-between text-xxs invert-order-desktop">
-            <FooterNav />
-            <div className="footer-copyright">Made by <a href="https://cruip.com">Cruip</a>. All right reserved</div>
-          </div>
+          <div className="footer-bottom space-between text-xxs invert-order-desktop" />
         </div>
       </div>
     </footer>
