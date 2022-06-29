@@ -40,7 +40,7 @@ const Footer = ({
             <h3 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200">Get in touch!</h3>
           <div className="footer-top space-between text-xxs">
             <h6>
-              <a href="mailto: felemenoun@gmail.com"><span className="text-color-primary">@</span> felemenoun@gmail.com</a>
+              <a href="mailto: felemenoun@gmail.com"><span className="at-symbole text-color-primary">@</span> felemenoun@gmail.com</a>
             </h6>
             <FooterSocial />
           </div>

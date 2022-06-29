@@ -71,7 +71,7 @@ const Hero = ({
                 <br />
                 <Social />
                 <br />
-                <a href="mailto: felemenoun@gmail.com"><span className="text-color-primary">@</span> felemenoun@gmail.com</a>
+                <a href="mailto: felemenoun@gmail.com"><span className="at-symbole text-color-primary">@</span> felemenoun@gmail.com</a>
               </div>
             </div>
           </div>

@@ -67,43 +67,6 @@ const FeaturesSplit = ({
           <div className={splitClasses}>
 
             <div className="split-item">
-              <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
-                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  React • Redux • JavaScript • CSS • Jest
-                  </div>
-                <h3 className="mt-0 mb-12">
-                COVID-19 Tracker
-                  </h3>
-                <p className="m-0">
-                Covid-19 Tracker is a mobile web application that provides the user the new cases of Covid-19 for each country and also the regions within the country by getting all the data and the statistics from Narrativa.
-                  </p>
-                  <br />
-                  <div className="reveal-from-bottom" data-reveal-delay="600">
-                    <ButtonGroup>
-                      <Button tag="a" target="_blank" color="primary" wideMobile href="https://timmychan99.github.io/covid19-tracker/">
-                        Live version
-                      </Button>
-                      <Button tag="a" target="_blank" color="dark" wideMobile href="https://github.com/TimmyChan99/covid19-tracker">
-                        Source Github
-                      </Button>
-                    </ButtonGroup>
-                  </div>
-              </div>
-              <div className={
-                classNames(
-                  'split-item-image center-content-mobile reveal-from-bottom',
-                  imageFill && 'split-item-image-fill'
-                )}
-                data-reveal-container=".split-item">
-                <Image
-                  src={require('./../../assets/images/covid19-2.png')}
-                  alt="Features split 01"
-                  width={528}
-                  height={396} />
-              </div>
-            </div>
-
-            <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-right" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
                   Ruby on Rails • React • Redux • JavaScript • Ruby
@@ -172,6 +135,45 @@ const FeaturesSplit = ({
                 <Image
                   src={require('./../../assets/images/budgetDemo2.gif')}
                   alt="Features split 03"
+                  width={528}
+                  height={396} />
+              </div>
+            </div>
+
+            <div className="split-item">
+              <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
+                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
+                  React • Redux • JavaScript • CSS • Jest
+                  </div>
+                <h3 className="mt-0 mb-12">
+                COVID-19 Tracker
+                  </h3>
+                <p className="m-0">
+                Covid-19 Tracker is a mobile web application that provides the user the new cases of Covid-19 for each country and also the regions within the country by getting all the data and the statistics from Narrativa.
+                  </p>
+                  <br />
+                  <p className="notice text-color-primary">Notice: Narrativa’s COVID-19 tracking project is no longer providing the API data</p>
+                  <br />
+                  <div className="reveal-from-bottom" data-reveal-delay="600">
+                    <ButtonGroup>
+                      <Button tag="a" target="_blank" color="primary" wideMobile href="https://timmychan99.github.io/covid19-tracker/">
+                        Live version
+                      </Button>
+                      <Button tag="a" target="_blank" color="dark" wideMobile href="https://github.com/TimmyChan99/covid19-tracker">
+                        Source Github
+                      </Button>
+                    </ButtonGroup>
+                  </div>
+              </div>
+              <div className={
+                classNames(
+                  'split-item-image center-content-mobile reveal-from-bottom',
+                  imageFill && 'split-item-image-fill'
+                )}
+                data-reveal-container=".split-item">
+                <Image
+                  src={require('./../../assets/images/covid19-2.png')}
+                  alt="Features split 01"
                   width={528}
                   height={396} />
               </div>
