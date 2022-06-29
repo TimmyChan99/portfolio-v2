@@ -179,6 +179,81 @@ const FeaturesSplit = ({
               </div>
             </div>
 
+            <div className="split-item">
+              <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
+                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
+                  React • Redux • JavaScript • CSS • Jest
+                  </div>
+                <h3 className="mt-0 mb-12">
+                Space Travlers
+                  </h3>
+                <p className="m-0">
+                  The application will allow users to book rockets and join selected space missions. Using data from the SpaceX API.
+                  The Space Travelers' Hub consists of Rockets, Missions, and the My Profile section. The My Profile section displays all reserved rockets and space missions.
+                </p>
+                  <br />
+                  <div className="reveal-from-bottom" data-reveal-delay="600">
+                    <ButtonGroup>
+                      <Button tag="a" target="_blank" color="primary" wideMobile href="https://timmychan99.github.io/space-travelers/">
+                        Live version
+                      </Button>
+                      <Button tag="a" target="_blank" color="dark" wideMobile href="https://github.com/TimmyChan99/space-travelers">
+                        Source Github
+                      </Button>
+                    </ButtonGroup>
+                  </div>
+              </div>
+              <div className={
+                classNames(
+                  'split-item-image center-content-mobile reveal-from-bottom',
+                  imageFill && 'split-item-image-fill'
+                )}
+                data-reveal-container=".split-item">
+                <Image
+                  src={require('./../../assets/images/space.gif')}
+                  alt="Features split 01"
+                  width={528}
+                  height={396} />
+              </div>
+            </div>
+
+            <div className="split-item">
+              <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
+                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
+                  JavaScript • CSS • HTML • Webpack • Jest
+                  </div>
+                <h3 className="mt-0 mb-12">
+                To-Do List
+                  </h3>
+                <p className="m-0">
+                To-Do List web app that helps to organize your day. You can add, remove, check the completed tasks, and store your list in your browser (local storage). Build using Webpack and JavaScript.
+                </p>
+                  <br />
+                  <div className="reveal-from-bottom" data-reveal-delay="600">
+                    <ButtonGroup>
+                      <Button tag="a" target="_blank" color="primary" wideMobile href="https://timmychan99.github.io/To_Do_list/">
+                        Live version
+                      </Button>
+                      <Button tag="a" target="_blank" color="dark" wideMobile href="https://github.com/TimmyChan99/To_Do_list">
+                        Source Github
+                      </Button>
+                    </ButtonGroup>
+                  </div>
+              </div>
+              <div className={
+                classNames(
+                  'split-item-image center-content-mobile reveal-from-bottom',
+                  imageFill && 'split-item-image-fill'
+                )}
+                data-reveal-container=".split-item">
+                <Image
+                  src={require('./../../assets/images/todo.gif')}
+                  alt="Features split 01"
+                  width={528}
+                  height={396} />
+              </div>
+            </div>
+
           </div>
         </div>
       </div>
