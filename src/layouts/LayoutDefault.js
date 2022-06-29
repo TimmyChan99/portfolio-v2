@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from '../components/layout/Header';
 import Footer from '../components/layout/Footer';
+import TopBtn from '../components/elements/TopBtn';
 
 const LayoutDefault = ({ children }) => (
   <>
@@ -9,6 +10,7 @@ const LayoutDefault = ({ children }) => (
       {children}
     </main>
     <Footer id='contact'/>
+    <TopBtn />
   </>
 );
 

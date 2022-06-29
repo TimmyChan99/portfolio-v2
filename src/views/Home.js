@@ -8,7 +8,7 @@ const Home = () => {
 
   return (
     <>
-      <Hero className="illustration-section-01" />
+      <Hero className="illustration-section-01" id='home' />
       <FeaturesSplit invertMobile topDivider imageFill className="illustration-section-02" id='works'/>
       <Testimonial topDivider id='aboutme'/>
     </>
