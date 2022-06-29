@@ -80,10 +80,10 @@ const FeaturesSplit = ({
                   <br />
                   <div className="reveal-from-bottom" data-reveal-delay="600">
                     <ButtonGroup>
-                      <Button tag="a" color="primary" wideMobile href="https://timmychan99.github.io/covid19-tracker/">
+                      <Button tag="a" target="_blank" color="primary" wideMobile href="https://timmychan99.github.io/covid19-tracker/">
                         Live version
                       </Button>
-                      <Button tag="a" color="dark" wideMobile href="https://github.com/TimmyChan99/covid19-tracker">
+                      <Button tag="a" target="_blank" color="dark" wideMobile href="https://github.com/TimmyChan99/covid19-tracker">
                         Source Github
                       </Button>
                     </ButtonGroup>
@@ -117,10 +117,10 @@ const FeaturesSplit = ({
                <br />
                <div className="reveal-from-bottom" data-reveal-delay="600">
                   <ButtonGroup>
-                    <Button tag="a" color="primary" wideMobile href="https://car-renta.herokuapp.com/">
+                    <Button tag="a" target="_blank" color="primary" wideMobile href="https://car-renta.herokuapp.com/">
                       Live version
                     </Button>
-                    <Button tag="a" color="dark" wideMobile href="https://github.com/TimmyChan99/Car-rental-app-back-end">
+                    <Button tag="a" target="_blank" color="dark" wideMobile href="https://github.com/TimmyChan99/Car-rental-app-back-end">
                       Source Github
                     </Button>
                   </ButtonGroup>
@@ -133,7 +133,7 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/cars.png')}
+                  src={require('./../../assets/images/rentar.gif')}
                   alt="Features split 02"
                   width={528}
                   height={396} />
@@ -154,10 +154,10 @@ const FeaturesSplit = ({
                 <br />
                   <div className="reveal-from-bottom" data-reveal-delay="600">
                     <ButtonGroup>
-                      <Button tag="a" color="primary" wideMobile href="https://mybudget-railsapp.herokuapp.com/">
+                      <Button tag="a" target="_blank" color="primary" wideMobile href="https://mybudget-railsapp.herokuapp.com/">
                         Live version
                       </Button>
-                      <Button tag="a" color="dark" wideMobile href="https://github.com/TimmyChan99/Budget-app/">
+                      <Button tag="a" target="_blank" color="dark" wideMobile href="https://github.com/TimmyChan99/Budget-app/">
                         Source Github
                       </Button>
                     </ButtonGroup>
